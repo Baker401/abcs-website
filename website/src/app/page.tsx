@@ -5,7 +5,7 @@ export default function Home() {
       <>
       <Header/>
     <div>
-      Welcome to A. B. Computer Services!
+      <img src="./assets/UCBanner.ai"  alt='under construction'/>
     </div>
       </>
   );
