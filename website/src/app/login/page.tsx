@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function LoginPage() {
     return (
       <>
-          <div className="flex mt-24 border-solid rounded-tl-3xl rounded-br-3xl border-black border-8 w-72 mx-auto items-center content-center justify-center flex-col h-96 bg-red-700">
+          <div className="flex mt-24 border-solid rounded-tl-3xl rounded-br-3xl border-black border-8 w-72 mx-auto items-center content-center justify-center flex-col h-96 bg-gradient-to-br from-slate-700 to-red-800">
                   <Image
                     src='/assets/abcs_red_logo.png'
                     alt='logo'
