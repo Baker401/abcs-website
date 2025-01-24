@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Header() {
@@ -14,7 +15,7 @@ export default function Header() {
               />
           </div>
           <div className="flex items-center justify-end text-lg">
-            <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer" >Home</div>
+            <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer" ><Link href={'/under-construction/'}>Home</Link></div>
             <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer">About</div>
               <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer">Contact</div>
           </div>
