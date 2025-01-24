@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Header() {
     return (
         <>
-      <div className="mx-auto justify-between flex bg-gradient-to-l from-red-800 to-slate-700">
-          <div className="flex mx-2 py-5 font-extrabold text-3xl text-red-700 hover:animate-bounce hover:items-end items-center hover:text-black hover:cursor-pointer">
+      <div className="mx-auto py-5 justify-between flex bg-gradient-to-l from-red-800 to-slate-700">
+          <div className="flex mx-2 font-extrabold text-3xl text-red-700 hover:animate-bounce hover:items-end items-center hover:text-black hover:cursor-pointer">
               <Image
                 src="/assets/abcs_logo.png"
                 width={175}
