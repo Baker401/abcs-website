@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        underConstruction: "url('/website/public/assets/under.jpeg')",
+      }
     },
   },
   plugins: [],
