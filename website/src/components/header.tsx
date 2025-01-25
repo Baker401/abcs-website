@@ -17,7 +17,7 @@ export default function NavBar() {
           <div className="flex items-center justify-end text-lg">
             <div className="w-20 font-extrabold hover:text-emerald-50 cursor-pointer" ><Link href='/'>Home</Link></div>
             <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer">About</div>
-              <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer">Contact</div>
+              <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer"><Link href='/contact-us/'>Contact</Link></div>
               <div className="w-24 font-extrabold hover:text-emerald-50 cursor-pointer"><Link href="/login/">Login</Link></div>
           </div>
       </div>

@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-      <div style={{backgroundImage: "url('/assets/under.jpeg')"}} className="bg-cover bg-center bg-no-repeat h-screen">
+      <div style={{backgroundImage: "url('')"}} className="bg-cover bg-center bg-no-repeat h-screen bg-black">
       <Header />
           <div className="">
           {children}
