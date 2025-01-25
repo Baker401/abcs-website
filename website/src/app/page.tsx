@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const Header: React.FC = () => {
@@ -23,6 +24,7 @@ const Header: React.FC = () => {
           <div>
               {isVisible && (
               <div className="">
+              <Analytics />
               </div>
               )}
           </div>

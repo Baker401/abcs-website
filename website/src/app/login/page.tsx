@@ -1,11 +1,13 @@
 import React from "react";
 import SubmitButton from "@/components/submitButton";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 
 
 export default function LoginPage() {
     return (
       <>
+          <Analytics />
           <div className="flex mt-24 border-solid rounded-tl-3xl rounded-br-3xl border-black border-8 w-72 mx-auto items-center content-center justify-center flex-col h-96 bg-gradient-to-br from-slate-700 to-red-800">
                   <Image
                     src='/assets/abcs_red_logo.png'

@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function ContactUs(){
     return (
         <>
+            <Analytics />
         <div className="max-w-2xl mt-32 ml-96 p-6 inline-flex flex-row justify-between items-baseline h-auto text-red-700 underline underline-offset-8 text-4xl ">
             <h2>Contact Us:</h2>
             <div className="w-1/2 flex flex-col">
